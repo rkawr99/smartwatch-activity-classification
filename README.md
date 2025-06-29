@@ -86,8 +86,3 @@ SQLD(SQL 개발자)
 AICE Associate(AI 역량 검정)
 전자공학 학사(4년제)
 데이터 분석 부트캠프 수료(Python 프로젝트 경험)
-SQLD(SQL 개발자)
-컴퓨터활용능력 1급
-AICE Associate(AI 역량 검정)
-전자공학 학사(4년제)
-데이터 분석 부트캠프 수료(Python 프로젝트 경험)
