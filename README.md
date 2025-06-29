@@ -38,7 +38,7 @@ max_depth: [2, 3, 4]
 50개 피처: 98.47% 정확도
 최종 선택: 128개 피처로 99.04% 정확도 달성
 
-4. 모델 성능 비교 및 검증
+3. 모델 성능 비교 및 검증
 테스트한 알고리즘:
 SVM: 96.88%
 Logistic Regression: 98.36%
@@ -61,7 +61,7 @@ XGBoost (최종 선택): 99.21%
 
 💡 기술적 특징
 1. 체계적인 실험 설계
-# GridSearchCV를 통한 체계적 하이퍼파라미터 탐색 params = {'learning_rate': [0.1, 0.2, 0.3], 'max_depth': [2, 3, 4]} hpt_xgb_model = GridSearchCV(estimator=xgb_model, param_grid=params, cv=3) 
+GridSearchCV를 통한 체계적 하이퍼파라미터 탐색 params = {'learning_rate': [0.1, 0.2, 0.3], 'max_depth': [2, 3, 4]} hpt_xgb_model = GridSearchCV(estimator=xgb_model, param_grid=params, cv=3) 
 2. 효율적인 피처 선택 프로세스
 150회 반복 실험을 통한 최적 피처 개수 탐색
 피처 중요도 기반 순차적 선택으로 차원의 저주 해결
